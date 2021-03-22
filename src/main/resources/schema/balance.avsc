@@ -1,0 +1,26 @@
+{
+    "namespace": "com.ibm.gbs.schema",
+    "type": "record",
+    "name": "Transaction",
+    "fields": [
+        {
+            "name": "balanceId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        }
+        ,
+        {
+            "name": "accountId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        },
+        {
+            "name": "balance",
+            "type": "float"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "namespace": "com.ibm.gbs.schema",
+    "type": "record",
+    "name": "CustomerBalance",
+    "fields": [
+        {
+            "name": "accountId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        }
+        ,
+        {
+            "name": "customerId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        },
+        {
+            "name": "phoneNumber",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        },
+        {
+            "name": "balance",
+            "type": "float"
+        }
+    ]
+}

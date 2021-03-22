@@ -1,0 +1,5 @@
+#kafka:
+#  bootstrap-servers: localhost:9092
+#  topic:
+#    name: customer1
+#    consumer-group: neworders-cg7

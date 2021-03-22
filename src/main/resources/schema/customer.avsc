@@ -1,0 +1,36 @@
+{
+    "namespace": "com.ibm.gbs.schema",
+    "type": "record",
+    "name": "Customer",
+    "fields": [
+        {
+            "name": "customerId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        }
+        ,
+        {
+            "name": "name",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        },
+        {
+            "name": "phoneNumber",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        },
+        {
+            "name": "accountId",
+            "type": {
+                "avro.java.string": "String",
+                "type": "string"
+                }
+        }
+    ]
+}
